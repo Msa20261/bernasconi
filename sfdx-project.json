@@ -3,6 +3,9 @@
     {
       "path": "dev",
       "default": true
+    },
+    {
+      "path": "prod"
     }
   ],
   "name": "bernasconi",
