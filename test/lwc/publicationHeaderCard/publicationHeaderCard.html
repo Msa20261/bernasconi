@@ -1,0 +1,33 @@
+<template>
+    <article class={actionStatusClass}>
+        <div class="slds-card__header">
+            <div class="slds-grid slds-gutters slds-wrap">
+                <div class="slds-col slds-size_5-of-12">
+                    <h2 class="slds-card__header-title">
+                        <span>{title}</span>
+                    </h2>
+                    <span>{createdByInfo}</span>
+                </div>
+                <div class="slds-col slds-size_3-of-12">
+                    <span>{procOfficeName}</span>
+                </div>
+                <div class="slds-col slds-size_2-of-12">
+                    <span>{publication.publicationDate}</span>
+                </div>
+                <div class="slds-col slds-size_2-of-12 slds-align_absolute-center">
+                    <lightning-button
+                        onclick={seePublication}
+                        label="Voir"
+                    ></lightning-button>
+                    <template if:true={opportunityUrl}>
+                        <lightning-button
+                            variant="brand"
+                            label="Opportunité"
+                            onclick={seeOpportunity}
+                        ></lightning-button>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </article>
+</template>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CRED SUR TOUS LES OBJETS</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>PsetGroupCRED</label>
+    <permissionSets>CRED_ObjetSetupAdmin</permissionSets>
+    <permissionSets>Cartographie_Opportunit</permissionSets>
+    <permissionSets>FlowPset</permissionSets>
+    <permissionSets>Permission_Set_Convertir_les_pistes</permissionSets>
+    <permissionSets>Pset_App_Benasconi</permissionSets>
+    <permissionSets>Pset_CRED_Account</permissionSets>
+    <permissionSets>Pset_CRED_AdminObjectSetup</permissionSets>
+    <permissionSets>Pset_CRED_AdminObjetUpdateStage</permissionSets>
+    <permissionSets>Pset_CRED_Contact</permissionSets>
+    <permissionSets>Pset_CRED_Lead</permissionSets>
+    <permissionSets>Pset_CRED_Opportunity</permissionSets>
+    <permissionSets>Pset_CRED_Opportunity_R_f_rentiel</permissionSets>
+    <permissionSets>Pset_CRED_Publication_Simap_Detail_c</permissionSets>
+    <permissionSets>Pset_CRED_Publication_Simap_c</permissionSets>
+    <permissionSets>Pset_CRED_R_f_rentiel</permissionSets>
+    <permissionSets>Pset_CRED_Secteur</permissionSets>
+    <permissionSets>Pset_CRED_SimapProcessingComplete_e</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Adjudications_et_mises_a_jour_c</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Cantons_c</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Code_CPV_c</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Federal_Entities_c</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Type_de_Contrat_c</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Type_de_Publication_c</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Type_de_procedure_c</permissionSets>
+    <permissionSets>Pset_CRED_Site</permissionSets>
+    <permissionSets>Pset_CRED_SiteOpportunity</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

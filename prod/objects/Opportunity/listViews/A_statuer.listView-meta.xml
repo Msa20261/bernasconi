@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>A_statuer</fullName>
+    <columns>Nature_travaux__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>R_u_le__c</columns>
+    <columns>Date_de_remise_offre__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>D_but_Travaux__c</columns>
+    <columns>Nom_du_responsable_chef_de_projet__c</columns>
+    <columns>Calculateur__c</columns>
+    <columns>Assistante_ACQ__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>à statuer</value>
+    </filters>
+    <label>A statuer</label>
+    <sharedTo>
+        <territory>Gestion_Affaires_Bernasconi.GE</territory>
+        <territory>Gestion_Affaires_Bernasconi.NE</territory>
+        <territory>Gestion_Affaires_Bernasconi.VD</territory>
+    </sharedTo>
+</ListView>

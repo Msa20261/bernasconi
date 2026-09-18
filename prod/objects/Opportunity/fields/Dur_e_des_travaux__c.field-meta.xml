@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dur_e_des_travaux__c</fullName>
+    <externalId>false</externalId>
+    <formula>(YEAR( Date_fin_des_travaux__c ) - YEAR( D_but_Travaux__c )) * 12 +
+(MONTH( Date_fin_des_travaux__c ) - MONTH( D_but_Travaux__c )) +
+IF(DAY( Date_fin_des_travaux__c ) &lt; DAY( D_but_Travaux__c ), -1, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Durée des travaux</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

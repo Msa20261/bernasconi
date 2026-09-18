@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TechNumeroDossier__c</fullName>
+    <description>Commence a partir du 0800</description>
+    <externalId>false</externalId>
+    <label>TechNumeroDossier</label>
+    <type>AutoNumber</type>
+</CustomField>

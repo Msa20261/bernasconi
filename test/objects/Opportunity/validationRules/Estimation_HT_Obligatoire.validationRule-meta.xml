@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimation_HT_Obligatoire</fullName>
+    <active>true</active>
+    <description>Règle mise en place pour forcer l&apos;utilisateur à renseigner le montant Estimation HT quand la checkbox est cochée</description>
+    <errorConditionFormula>AND(
+     Estimation_HT_Connu__c  = TRUE, 
+    ISBLANK( Estimation_HT__c )
+)</errorConditionFormula>
+    <errorDisplayField>Estimation_HT__c</errorDisplayField>
+    <errorMessage>Veuillez renseigner le montant d&apos;Estimation HT</errorMessage>
+</ValidationRule>

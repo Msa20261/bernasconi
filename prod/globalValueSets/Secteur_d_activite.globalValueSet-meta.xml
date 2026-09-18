@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Confédération</fullName>
+        <default>false</default>
+        <label>Confédération</label>
+    </customValue>
+    <customValue>
+        <fullName>Canton</fullName>
+        <default>false</default>
+        <label>Canton</label>
+    </customValue>
+    <customValue>
+        <fullName>Commune</fullName>
+        <default>false</default>
+        <label>Commune</label>
+    </customValue>
+    <customValue>
+        <fullName>Transport public ferre</fullName>
+        <default>false</default>
+        <label>Transport public ferre</label>
+    </customValue>
+    <customValue>
+        <fullName>Concession</fullName>
+        <default>false</default>
+        <label>Concession</label>
+    </customValue>
+    <customValue>
+        <fullName>Etablissement de droit public</fullName>
+        <default>false</default>
+        <label>Etablissement de droit public</label>
+    </customValue>
+    <customValue>
+        <fullName>Architecte</fullName>
+        <default>false</default>
+        <label>Architecte</label>
+    </customValue>
+    <customValue>
+        <fullName>Mandataire - Bureau ingénieur - DT</fullName>
+        <default>false</default>
+        <label>Mandataire - Bureau ingénieur - DT</label>
+    </customValue>
+    <customValue>
+        <fullName>Bamo</fullName>
+        <default>false</default>
+        <label>Bamo</label>
+    </customValue>
+    <customValue>
+        <fullName>Entreprise Construction bâtiment</fullName>
+        <default>false</default>
+        <label>Entreprise Construction bâtiment</label>
+    </customValue>
+    <customValue>
+        <fullName>Entreprise Construction génie civil</fullName>
+        <default>false</default>
+        <label>Entreprise Construction génie civil</label>
+    </customValue>
+    <customValue>
+        <fullName>Entreprise générale - totale</fullName>
+        <default>false</default>
+        <label>Entreprise générale - totale</label>
+    </customValue>
+    <customValue>
+        <fullName>Commerce et distribution</fullName>
+        <default>false</default>
+        <label>Commerce et distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>Logistique et transport</fullName>
+        <default>false</default>
+        <label>Logistique et transport</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrie</fullName>
+        <default>false</default>
+        <label>Industrie</label>
+    </customValue>
+    <customValue>
+        <fullName>Service</fullName>
+        <default>false</default>
+        <label>Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Agroalimentaire</fullName>
+        <default>false</default>
+        <label>Agroalimentaire</label>
+    </customValue>
+    <customValue>
+        <fullName>Santé</fullName>
+        <default>false</default>
+        <label>Santé</label>
+    </customValue>
+    <customValue>
+        <fullName>Environnement</fullName>
+        <default>false</default>
+        <label>Environnement</label>
+    </customValue>
+    <customValue>
+        <fullName>Energie renouvelable</fullName>
+        <default>false</default>
+        <label>Energie renouvelable</label>
+    </customValue>
+    <customValue>
+        <fullName>Investisseur privé</fullName>
+        <default>false</default>
+        <label>Investisseur privé</label>
+    </customValue>
+    <customValue>
+        <fullName>Résidentiel et tertiaire</fullName>
+        <default>false</default>
+        <label>Résidentiel et tertiaire</label>
+    </customValue>
+    <customValue>
+        <fullName>Gérance</fullName>
+        <default>false</default>
+        <label>Gérance</label>
+    </customValue>
+    <customValue>
+        <fullName>Organisme financier</fullName>
+        <default>false</default>
+        <label>Organisme financier</label>
+    </customValue>
+    <customValue>
+        <fullName>Particuliers</fullName>
+        <default>false</default>
+        <label>Particuliers</label>
+    </customValue>
+    <customValue>
+        <fullName>Autres clients privés</fullName>
+        <default>false</default>
+        <label>Autres clients privés</label>
+    </customValue>
+    <masterLabel>Secteur d activite</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

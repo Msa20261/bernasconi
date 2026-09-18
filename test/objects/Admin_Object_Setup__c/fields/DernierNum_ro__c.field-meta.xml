@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DernierNum_ro__c</fullName>
+    <description>Ce champ stocke le dernier numéro séquentiel utilisé pour l&apos;année en cours (par exemple 123 pour 24-0123).
+Exemple : Si le dernier numéro attribué est 24-0123, cette valeur sera 123.</description>
+    <externalId>false</externalId>
+    <label>DernierNuméro</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

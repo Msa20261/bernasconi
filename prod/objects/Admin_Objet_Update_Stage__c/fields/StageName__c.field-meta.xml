@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StageName__c</fullName>
+    <label>StageName</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>identification</fullName>
+                <default>false</default>
+                <label>identification</label>
+            </value>
+            <value>
+                <fullName>à statuer</fullName>
+                <default>false</default>
+                <label>à statuer</label>
+            </value>
+            <value>
+                <fullName>en cours</fullName>
+                <default>false</default>
+                <label>en cours</label>
+            </value>
+            <value>
+                <fullName>non répondue</fullName>
+                <default>false</default>
+                <label>non répondue</label>
+            </value>
+            <value>
+                <fullName>abandonnée</fullName>
+                <default>false</default>
+                <label>abandonnée</label>
+            </value>
+            <value>
+                <fullName>répondue</fullName>
+                <default>false</default>
+                <label>répondue</label>
+            </value>
+            <value>
+                <fullName>en négociation</fullName>
+                <default>false</default>
+                <label>en négociation</label>
+            </value>
+            <value>
+                <fullName>Gagnée</fullName>
+                <default>false</default>
+                <label>Gagnée</label>
+            </value>
+            <value>
+                <fullName>Perdue</fullName>
+                <default>false</default>
+                <label>Perdue</label>
+            </value>
+            <value>
+                <fullName>Annonce préalable</fullName>
+                <default>false</default>
+                <label>Annonce préalable</label>
+            </value>
+            <value>
+                <fullName>infructueuses</fullName>
+                <default>false</default>
+                <label>infructueuses</label>
+            </value>
+            <value>
+                <fullName>Sans suite</fullName>
+                <default>false</default>
+                <label>Sans suite</label>
+            </value>
+            <value>
+                <fullName>candidature non retenue</fullName>
+                <default>false</default>
+                <label>candidature non retenue</label>
+            </value>
+            <value>
+                <fullName>candidature retenue</fullName>
+                <default>false</default>
+                <label>candidature retenue</label>
+            </value>
+            <value>
+                <fullName>Travaux</fullName>
+                <default>false</default>
+                <label>Travaux</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

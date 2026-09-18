@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OpportunitéProjet</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Annonce préalable</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Perdue</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Travaux</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>abandonnée</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>candidature non retenue</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>candidature retenue</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>en cours</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>en négociation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>gagnée</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>identification</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>infructueuses</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>non répondue</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>répondue</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>à statuer</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AffaireParTerritoireCanton</fullName>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>Estimation_HT__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>TERR2_NAME</field>
+        <operation>equals</operation>
+        <value>NE</value>
+    </filters>
+    <filters>
+        <field>TERR2_NAME</field>
+        <operation>equals</operation>
+        <value>VD</value>
+    </filters>
+    <filters>
+        <field>TERR2_NAME</field>
+        <operation>equals</operation>
+        <value>GE</value>
+    </filters>
+    <label>Affaire Par Territoire(Canton)</label>
+</ListView>

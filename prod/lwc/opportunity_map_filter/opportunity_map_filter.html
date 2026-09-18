@@ -1,0 +1,50 @@
+<template>
+    <template lwc:if={opportunities}>
+        <template if:false={recordId}>
+            <lightning-combobox
+                name="accounts"
+                label="Clients"
+                value={label}
+                options={accounts}
+                onchange={handleAccountSelection}
+                placeholder="Select by account"
+                class="slds-m-bottom_small"
+            ></lightning-combobox>
+            <lightning-combobox
+                name="stageNames"
+                label="Opportunité étape"
+                value={label}
+                options={stageNames}
+                onchange={handleStageSelection}
+                placeholder="Select by stage"
+                class="slds-m-bottom_small"
+            ></lightning-combobox>
+            <lightning-combobox
+                name="creations date"
+                label="Date de création"
+                value={label}
+                options={creationsDate}
+                onchange={handleDateSelection}
+                placeholder="Select by year"
+                class="slds-m-bottom_small"
+            ></lightning-combobox>
+            <lightning-combobox
+                name="territories"
+                label="Territoires"
+                value={label}
+                options={territories}
+                onchange={handleTerritorySelection}
+                placeholder="Select by territory"
+                class="slds-m-bottom_small"
+            ></lightning-combobox>
+        </template>
+        <c-opportunity_map
+            record-id={recordId}
+            opportunities={opportunities}
+            selected-account={selectedAccount}
+            selected-stage={selectedStage}
+            selected-date={selectedDate}
+            selected-territory={selectedTerritory}
+        ></c-opportunity_map>
+    </template>
+</template>

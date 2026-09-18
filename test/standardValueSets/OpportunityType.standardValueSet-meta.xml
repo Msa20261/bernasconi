@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>GRE A GRE</fullName>
+        <default>false</default>
+        <label>GRE A GRE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>INVITATION</fullName>
+        <default>false</default>
+        <label>INVITATION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DEVIS</fullName>
+        <default>false</default>
+        <label>DEVIS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SOUMISSION</fullName>
+        <default>false</default>
+        <label>SOUMISSION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CANDIDATURE</fullName>
+        <default>false</default>
+        <label>CANDIDATURE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AUTRES</fullName>
+        <default>false</default>
+        <label>AUTRES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PRIVE</fullName>
+        <default>false</default>
+        <label>PRIVE</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "dev",
+      "default": true
+    }
+  ],
+  "name": "bernasconi",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "62.0"
+}

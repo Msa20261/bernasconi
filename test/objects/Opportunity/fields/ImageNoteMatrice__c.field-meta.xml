@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ImageNoteMatrice__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+     Note_Matrice__c  &gt; 50,
+    IMAGE(&quot;https://efficiency-drive-4031--testupmind.sandbox.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Jpg&amp;versionId=068KJ000000Y0SB&amp;operationContext=CHATTER&amp;contentId=05TKJ000000HgtW&quot;, &quot;Image supérieure à 50&quot;),
+    IMAGE(&quot;https://efficiency-drive-4031--testupmind.sandbox.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068KJ000000Y0S6&amp;operationContext=CHATTER&amp;contentId=05TKJ000000HgtR&quot;, &quot;Image inférieure ou égale à 50&quot;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ImageNoteMatrice</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

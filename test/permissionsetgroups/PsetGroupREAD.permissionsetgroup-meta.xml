@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Tous les objets en Lecture seulement</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>PsetGroupREAD</label>
+    <permissionSets>Pset_Only_Referentiel</permissionSets>
+    <permissionSets>Pset_READ_ONLY_AdminObjetUpdateStage</permissionSets>
+    <permissionSets>Pset_READ_ONLY_Admin_Object_Setup</permissionSets>
+    <permissionSets>Pset_Read_Only_Account</permissionSets>
+    <permissionSets>Pset_Read_Only_Contact</permissionSets>
+    <permissionSets>Pset_Read_Only_Lead</permissionSets>
+    <permissionSets>Pset_Read_Opportunity</permissionSets>
+    <permissionSets>Pset_Read_Publication_Simap_Detail_c</permissionSets>
+    <permissionSets>Pset_Read_Publication_Simap_c</permissionSets>
+    <permissionSets>Pset_Read_Secteur</permissionSets>
+    <permissionSets>Pset_Read_Simap_Adjudications_et_mises_a_jour_c</permissionSets>
+    <permissionSets>Pset_Read_Simap_Cantons_c</permissionSets>
+    <permissionSets>Pset_Read_Simap_Code_CPV_c</permissionSets>
+    <permissionSets>Pset_Read_Simap_Federal_Entities_c</permissionSets>
+    <permissionSets>Pset_Read_Simap_Type_de_Contrat_c</permissionSets>
+    <permissionSets>Pset_Read_Simap_Type_de_Publication_c</permissionSets>
+    <permissionSets>Pset_Read_Simap_Type_de_procedure_c</permissionSets>
+    <permissionSets>TestCustomSettings</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

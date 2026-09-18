@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- TechFormuleCalculRésultat --></label>
+    <name>TechFormuleCalculR_sultat__c</name>
+    <picklistValues>
+        <masterLabel>Formule 1</masterLabel>
+        <translation><!-- Formule 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Formule 2</masterLabel>
+        <translation><!-- Formule 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Formule3</masterLabel>
+        <translation><!-- Formule3 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

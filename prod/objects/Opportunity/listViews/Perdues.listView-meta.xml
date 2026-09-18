@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Perdues</fullName>
+    <columns>Numero_dossier__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Date_adjudication__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Montant_repondu_HT_Part_Bernasconi__c</columns>
+    <columns>Montant_D_Attribution__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Perdue</value>
+    </filters>
+    <label>Perdues</label>
+</ListView>

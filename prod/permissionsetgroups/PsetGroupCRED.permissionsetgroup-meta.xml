@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CRED SUR TOUS LES OBJETS</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>PsetGroupCRED</label>
+    <permissionSets>BernasconiApp</permissionSets>
+    <permissionSets>CRED_Account</permissionSets>
+    <permissionSets>CRED_Contact</permissionSets>
+    <permissionSets>CRED_Lead</permissionSets>
+    <permissionSets>CRED_ObjetSetupAdmin</permissionSets>
+    <permissionSets>CRED_ObjetSetupStage</permissionSets>
+    <permissionSets>CRED_Opportunite</permissionSets>
+    <permissionSets>CRED_OpportuniteReferentiel</permissionSets>
+    <permissionSets>CRED_Referentiel</permissionSets>
+    <permissionSets>CRED_Reponse</permissionSets>
+    <permissionSets>Cartographie</permissionSets>
+    <permissionSets>Pset_CRED_Publication_Simap_Detail_c</permissionSets>
+    <permissionSets>Pset_CRED_Publication_Simap_c</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Adjudications_et_mises_a_jour_c</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Cantons_c</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Code_CPV_c</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Federal_Entities_c</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Type_de_Contrat_c</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Type_de_Publication_c</permissionSets>
+    <permissionSets>Pset_CRED_Simap_Type_de_procedure_c</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

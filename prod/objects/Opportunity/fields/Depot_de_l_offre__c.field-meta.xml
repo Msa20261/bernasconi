@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Depot_de_l_offre__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Dépôt de l&apos;offre</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Opportunities (Dépôt de l&apos;offre)</relationshipLabel>
+    <relationshipName>Opportunities9</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

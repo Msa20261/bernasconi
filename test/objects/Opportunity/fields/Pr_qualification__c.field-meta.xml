@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pr_qualification__c</fullName>
+    <label>Préqualification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Préqualification acceptée en attente de l&apos;offre</fullName>
+                <default>false</default>
+                <label>Préqualification acceptée en attente de l&apos;offre</label>
+            </value>
+            <value>
+                <fullName>Candidature non retenue</fullName>
+                <default>false</default>
+                <label>Candidature non retenue</label>
+            </value>
+            <value>
+                <fullName>Non répondue</fullName>
+                <default>false</default>
+                <label>Non répondue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

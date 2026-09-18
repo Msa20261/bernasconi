@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bureau_Ing_nieur_DT__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Bureau Ingénieur/DT</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Opportunities (Bureau Ingénieur/DT)</relationshipLabel>
+    <relationshipName>Opportunities2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

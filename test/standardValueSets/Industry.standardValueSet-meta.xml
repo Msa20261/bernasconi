@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Maître d&apos;ouvrage</fullName>
+        <default>false</default>
+        <label>Maître d&apos;ouvrage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mandataire</fullName>
+        <default>false</default>
+        <label>Mandataire</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Assistance à maitrise d&apos;ouvrage</fullName>
+        <default>false</default>
+        <label>Assistance à maitrise d&apos;ouvrage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Autres</fullName>
+        <default>false</default>
+        <label>Autres</label>
+    </standardValue>
+</StandardValueSet>

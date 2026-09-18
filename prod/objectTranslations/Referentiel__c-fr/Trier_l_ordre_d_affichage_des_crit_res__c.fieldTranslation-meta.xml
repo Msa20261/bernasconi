@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Trier l&apos;ordre d&apos;affichage des critères --></label>
+    <name>Trier_l_ordre_d_affichage_des_crit_res__c</name>
+</CustomFieldTranslation>

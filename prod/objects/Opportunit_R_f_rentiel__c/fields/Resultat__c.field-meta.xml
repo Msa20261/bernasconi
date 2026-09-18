@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resultat__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+    TechPicklistR_f_rentielValue__c = &apos;Formule 1&apos;, 
+    ( ( Notation_1_Faible_2_moyen_3_fort__c * Pond_ration__c ) / 69 ) * 100, 
+    IF( 
+        TechPicklistR_f_rentielValue__c = &apos;Formule 2&apos;, 
+        IF(
+            Notation_1_Faible_2_moyen_3_fort__c = 3,
+            (1 * Pond_ration__c ),
+            IF(
+                Notation_1_Faible_2_moyen_3_fort__c = 1,
+                (3 * Pond_ration__c ),
+                (2 * Pond_ration__c )
+            )
+        ) / 69 * 100,
+        IF(
+            TechPicklistR_f_rentielValue__c = &apos;Formule3&apos;, 
+            Notation_1_Faible_2_moyen_3_fort__c,  /* Reprise de donnée : retourne la notation */
+            0
+        )
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Résultat</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

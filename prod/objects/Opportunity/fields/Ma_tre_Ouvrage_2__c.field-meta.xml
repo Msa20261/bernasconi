@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ma_tre_Ouvrage_2__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Maître Ouvrage 2</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Opportunities (Maître Ouvrage 2)</relationshipLabel>
+    <relationshipName>Opportunities7</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

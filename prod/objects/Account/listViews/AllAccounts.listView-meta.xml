@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Nature_juridique__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>Secteur_d_activite__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Tous les comptes</label>
+</ListView>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secteur_d_activite__c</fullName>
+    <label>Secteur d activite</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Nature_juridique__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Secteur_d_activite</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>Confédération</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>Canton</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>Commune</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>Transport public ferre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>Concession</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>Etablissement de droit public</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Architecte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Mandataire - Bureau ingénieur - DT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Bamo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Entreprise Construction bâtiment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Entreprise Construction génie civil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Entreprise générale - totale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Commerce et distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Logistique et transport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Industrie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Agroalimentaire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Santé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Environnement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Energie renouvelable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Investisseur privé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Résidentiel et tertiaire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Gérance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Organisme financier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Particuliers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privé</controllingFieldValue>
+            <valueName>Autres clients privés</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

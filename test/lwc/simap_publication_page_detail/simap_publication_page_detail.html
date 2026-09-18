@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Détails de la publication">
+        <div class="publication-simap-container">
+            <template for:each={publicationDetailData} for:item="item">
+                <div key={item.key}  class="publication-simap-row">
+                    <div class="publication-simap-row-element publication-simap-row-key">{item.key}</div>
+                    <div class="publication-simap-row-element publication-simap-row-value">{item.value}</div>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Tous les objets en Lecture seulement</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>PsetGroupREAD</label>
+    <permissionSets>BernasconiApp</permissionSets>
+    <permissionSets>Cartographie</permissionSets>
+    <permissionSets>Pset_FlowConvert</permissionSets>
+    <permissionSets>Pset_Read_Publication_Simap_Detail_c</permissionSets>
+    <permissionSets>Pset_Read_Publication_Simap_c</permissionSets>
+    <permissionSets>Pset_Read_Simap_Adjudications_et_mises_a_jour_c</permissionSets>
+    <permissionSets>Pset_Read_Simap_Cantons_c</permissionSets>
+    <permissionSets>Pset_Read_Simap_Code_CPV_c</permissionSets>
+    <permissionSets>Pset_Read_Simap_Federal_Entities_c</permissionSets>
+    <permissionSets>Pset_Read_Simap_Type_de_Contrat_c</permissionSets>
+    <permissionSets>Pset_Read_Simap_Type_de_Publication_c</permissionSets>
+    <permissionSets>Pset_Read_Simap_Type_de_procedure_c</permissionSets>
+    <permissionSets>READ_Account</permissionSets>
+    <permissionSets>READ_Contact</permissionSets>
+    <permissionSets>READ_Lead</permissionSets>
+    <permissionSets>READ_ObjetSetupAdmin</permissionSets>
+    <permissionSets>READ_ObjetSetupStage</permissionSets>
+    <permissionSets>READ_Opportunite</permissionSets>
+    <permissionSets>READ_OpportuniteReferentiel</permissionSets>
+    <permissionSets>READ_Referentiel</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

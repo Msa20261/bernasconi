@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nom_Responsable_MO_1__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Nom du Responsable MO 1</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Opportunities (Nom Responsable MO 1)</relationshipLabel>
+    <relationshipName>Opportunities7</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

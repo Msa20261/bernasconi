@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionPlanTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionPlanTemplateItem>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>Event</itemEntityType>
+            <name>Subject</name>
+            <valueLiteral>Organiser des activités</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>Event</itemEntityType>
+            <name>ActivityDate</name>
+            <valueFormula>StartDate + 28</valueFormula>
+        </actionPlanTemplateItemValue>
+        <isRequired>false</isRequired>
+        <itemEntityType>Event</itemEntityType>
+        <name>Organiser des activités</name>
+        <uniqueName>Organiser_des_activit_s_e0c25618_9c5d_11f1_bcbe_c7e17eb6546c</uniqueName>
+    </actionPlanTemplateItem>
+    <actionPlanTemplateItem>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>Task</itemEntityType>
+            <name>Subject</name>
+            <valueLiteral>Planifier des réunions</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>Task</itemEntityType>
+            <name>Priority</name>
+            <valueLiteral>Normal</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>Task</itemEntityType>
+            <name>ActivityDate</name>
+            <valueFormula>StartDate + 14</valueFormula>
+        </actionPlanTemplateItemValue>
+        <isRequired>false</isRequired>
+        <itemEntityType>Task</itemEntityType>
+        <name>Planifier des réunions</name>
+        <uniqueName>Planifier_des_r_unions_e0c1e0e6_9c5d_11f1_bcbe_b1f1c936c230</uniqueName>
+    </actionPlanTemplateItem>
+    <description>Modèle par défaut de modification basée sur les besoins de l’utilisateur</description>
+    <isAdHocItemCreationEnabled>false</isAdHocItemCreationEnabled>
+    <name>Modèle par défaut</name>
+    <targetEntityType>AccountPlanObjective</targetEntityType>
+    <uniqueName>Mod_le_par_d_faut_e0ae7ff2_9c5d_11f1_bcbe_1b421cf0cc9e</uniqueName>
+</ActionPlanTemplate>

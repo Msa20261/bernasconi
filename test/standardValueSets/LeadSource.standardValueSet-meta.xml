@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Simap</fullName>
+        <default>false</default>
+        <label>Simap</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Olmero</fullName>
+        <default>false</default>
+        <label>Olmero</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Réseau</fullName>
+        <default>false</default>
+        <label>Réseau</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contact</fullName>
+        <default>false</default>
+        <label>Contact</label>
+    </standardValue>
+</StandardValueSet>

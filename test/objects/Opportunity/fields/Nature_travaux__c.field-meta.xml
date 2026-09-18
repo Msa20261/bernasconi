@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nature_travaux__c</fullName>
+    <label>Nature travaux</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GC ROUTES</fullName>
+                <default>false</default>
+                <label>GC ROUTES</label>
+            </value>
+            <value>
+                <fullName>BATIMENT</fullName>
+                <default>false</default>
+                <label>BATIMENT</label>
+            </value>
+            <value>
+                <fullName>OUVRAGES ART</fullName>
+                <default>false</default>
+                <label>OUVRAGES ART</label>
+            </value>
+            <value>
+                <fullName>RAIL</fullName>
+                <default>false</default>
+                <label>RAIL</label>
+            </value>
+            <value>
+                <fullName>EnR</fullName>
+                <default>false</default>
+                <label>EnR</label>
+            </value>
+            <value>
+                <fullName>SERVICE</fullName>
+                <default>false</default>
+                <label>SERVICE</label>
+            </value>
+            <value>
+                <fullName>TRAVAUX PROXIMITE</fullName>
+                <default>false</default>
+                <label>TRAVAUX PROXIMITE</label>
+            </value>
+            <value>
+                <fullName>BAT - Neuf</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BAT - Neuf</label>
+            </value>
+            <value>
+                <fullName>BAT - Renovation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BAT - Renovation</label>
+            </value>
+            <value>
+                <fullName>CFF-Clustering</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CFF-Clustering</label>
+            </value>
+            <value>
+                <fullName>CFF-GC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CFF-GC</label>
+            </value>
+            <value>
+                <fullName>CFF-Gareet Lhand</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CFF-Gareet Lhand</label>
+            </value>
+            <value>
+                <fullName>CFF-OA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CFF-OA</label>
+            </value>
+            <value>
+                <fullName>CFF-Reseaux</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CFF-Reseaux</label>
+            </value>
+            <value>
+                <fullName>GC-Amenagements</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GC-Amenagements</label>
+            </value>
+            <value>
+                <fullName>GC-Assainissement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GC-Assainissement</label>
+            </value>
+            <value>
+                <fullName>GC-BAT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GC-BAT</label>
+            </value>
+            <value>
+                <fullName>GC-OA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GC-OA</label>
+            </value>
+            <value>
+                <fullName>GC-Renaturation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GC-Renaturation</label>
+            </value>
+            <value>
+                <fullName>GC-Reseaux</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GC-Reseaux</label>
+            </value>
+            <value>
+                <fullName>GC-Route</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GC-Route</label>
+            </value>
+            <value>
+                <fullName>GC-Terrassements</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GC-Terrassements</label>
+            </value>
+            <value>
+                <fullName>OA-Entretien</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OA-Entretien</label>
+            </value>
+            <value>
+                <fullName>OFROU-Noir</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OFROU-Noir</label>
+            </value>
+            <value>
+                <fullName>OFROU-OA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OFROU-OA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

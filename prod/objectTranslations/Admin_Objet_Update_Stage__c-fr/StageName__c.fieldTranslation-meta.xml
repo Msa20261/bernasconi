@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- StageName --></label>
+    <name>StageName__c</name>
+    <picklistValues>
+        <masterLabel>Annonce préalable</masterLabel>
+        <translation><!-- Annonce préalable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gagnée</masterLabel>
+        <translation><!-- Gagnée --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perdue</masterLabel>
+        <translation><!-- Perdue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sans suite</masterLabel>
+        <translation><!-- Sans suite --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Travaux</masterLabel>
+        <translation><!-- Travaux --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>abandonnée</masterLabel>
+        <translation><!-- abandonnée --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>candidature non retenue</masterLabel>
+        <translation><!-- candidature non retenue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>candidature retenue</masterLabel>
+        <translation><!-- candidature retenue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>en cours</masterLabel>
+        <translation><!-- en cours --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>en négociation</masterLabel>
+        <translation><!-- en négociation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>identification</masterLabel>
+        <translation><!-- identification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>infructueuses</masterLabel>
+        <translation><!-- infructueuses --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>non répondue</masterLabel>
+        <translation><!-- non répondue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>répondue</masterLabel>
+        <translation><!-- répondue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>à statuer</masterLabel>
+        <translation><!-- à statuer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

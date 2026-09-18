@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <description>Date de clôture doit reprendre date de création de l’opportunité +3 ans par défaut.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>Fr_CloseDate</name>
+        <dataType>Date</dataType>
+        <expression>DATE(YEAR({!$Record.Date_de_Cr_ation__c}) + 3, MONTH({!$Record.Date_de_Cr_ation__c}), DAY({!$Record.Date_de_Cr_ation__c}))</expression>
+    </formulas>
+    <interviewLabel>Fl_UpdateCloseDate {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Fl_UpdateCloseDate</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>MAJ de la date de clôture doit reprendre date de création de l’opportunité +3 ans par défaut.</description>
+        <name>Update_CloseDate</name>
+        <label>Update_CloseDate</label>
+        <locationX>176</locationX>
+        <locationY>287</locationY>
+        <inputAssignments>
+            <field>CloseDate</field>
+            <value>
+                <elementReference>Fr_CloseDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_CloseDate</targetReference>
+        </connector>
+        <filterFormula>{!$Record.RecordType.DeveloperName}=&apos;Affaires&apos;</filterFormula>
+        <object>Opportunity</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

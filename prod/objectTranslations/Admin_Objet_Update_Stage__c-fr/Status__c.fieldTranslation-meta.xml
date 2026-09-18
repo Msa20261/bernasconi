@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>AMONT</masterLabel>
+        <translation><!-- AMONT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FERMEE</masterLabel>
+        <translation><!-- FERMEE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NEGOCIATION</masterLabel>
+        <translation><!-- NEGOCIATION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OFFRE A L’ETUDE</masterLabel>
+        <translation><!-- OFFRE A L’ETUDE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OFFRE REMISE</masterLabel>
+        <translation><!-- OFFRE REMISE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRAVAUX</masterLabel>
+        <translation><!-- TRAVAUX --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

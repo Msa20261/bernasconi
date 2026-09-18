@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AMONT</fullName>
+                <default>false</default>
+                <label>AMONT</label>
+            </value>
+            <value>
+                <fullName>OFFRE A L’ETUDE</fullName>
+                <default>false</default>
+                <label>OFFRE A L’ETUDE</label>
+            </value>
+            <value>
+                <fullName>OFFRE REMISE</fullName>
+                <default>false</default>
+                <label>OFFRE REMISE</label>
+            </value>
+            <value>
+                <fullName>NEGOCIATION</fullName>
+                <default>false</default>
+                <label>NEGOCIATION</label>
+            </value>
+            <value>
+                <fullName>TRAVAUX</fullName>
+                <default>false</default>
+                <label>TRAVAUX</label>
+            </value>
+            <value>
+                <fullName>FERMEE</fullName>
+                <default>false</default>
+                <label>FERMEE</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Sans suite</controllingFieldValue>
+            <controllingFieldValue>candidature non retenue</controllingFieldValue>
+            <controllingFieldValue>non répondue</controllingFieldValue>
+            <controllingFieldValue>abandonnée</controllingFieldValue>
+            <controllingFieldValue>Gagnée</controllingFieldValue>
+            <controllingFieldValue>Perdue</controllingFieldValue>
+            <controllingFieldValue>infructueuses</controllingFieldValue>
+            <valueName>FERMEE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>candidature retenue</controllingFieldValue>
+            <controllingFieldValue>Annonce préalable</controllingFieldValue>
+            <controllingFieldValue>répondue</controllingFieldValue>
+            <valueName>OFFRE REMISE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Travaux</controllingFieldValue>
+            <valueName>TRAVAUX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>identification</controllingFieldValue>
+            <valueName>AMONT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>à statuer</controllingFieldValue>
+            <controllingFieldValue>en cours</controllingFieldValue>
+            <valueName>OFFRE A L’ETUDE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>en négociation</controllingFieldValue>
+            <valueName>NEGOCIATION</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
